@@ -1,11 +1,11 @@
-# [react-code-diff]()
+# [react-code-diff](https://github.com/guhuaijin/react-code-diff)
  
-此组件是基于[vue-code-diff]()实现的react版本代码对比展示工具。
+此组件是基于[vue-code-diff](https://www.npmjs.com/package/vue-code-diff)实现的react版本代码对比展示工具。
 > 代码对比展示demo
 
 ## 安装
 ```$xslt
-npm install reacr-code-diff
+npm install react-code-diff
 ```
 
 ## 使用
@@ -46,9 +46,9 @@ export default Demo;
 ## 效果展示
 
 ### line-by-line
-![line-by-line](../react-code-diff/line-by-line.png?row=true)
+![line-by-line](line-by-line.png?row=true)
 ### side-by-side
-![line-by-line](../react-code-diff/side-by-side.png?row=true)
+![line-by-line](side-by-side.png?row=true)
 
 ## LICENSE
 [MIT](LICENSE)

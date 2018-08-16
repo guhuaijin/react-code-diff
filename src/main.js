@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import CodeDiff from './lib/code-diff/index'
+import CodeDiff from './index.jsx'
 import {Row, Col, Input, Form, Switch, InputNumber}from 'antd'
 import newStr from './data/newStr'
 import oldStr from './data/oldStr'
@@ -13,10 +13,10 @@ class CodeDiffPage extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            oldStr: oldStr,
-            newStr: newStr,
+            // oldStr: null,
+            // newStr: null,
             format: false,
-            context: 5
+            context: 5,
         }
     }
 
