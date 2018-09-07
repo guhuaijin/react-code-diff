@@ -1,6 +1,6 @@
 {
   "name": "react-code-diff",
-  "version": "1.0.5",
+  "version": "1.0.7",
   "description": "代码比较组件的react实现",
   "main": "index.js",
   "scripts": {
@@ -21,8 +21,6 @@
     "clean-webpack-plugin": "^0.1.19",
     "create-react-class": "^15.6.3",
     "css-loader": "^1.0.0",
-    "diff": "^3.5.0",
-    "diff2html": "^2.4.0",
     "extract-text-webpack-plugin": "^3.0.2",
     "highlight.js": "^9.12.0",
     "html-webpack-plugin": "^3.2.0",
@@ -37,6 +35,8 @@
   },
   "dependencies": {
     "antd": "^3.7.2",
+    "diff": "^3.5.0",
+    "diff2html": "^2.4.0",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
     "react-katex": "git+https://github.com/talyssonoc/react-katex.git",
