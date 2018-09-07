@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import CodeDiff from './index.jsx'
+import CodeDiff from '../index.jsx'
 import {Row, Col, Input, Form, Switch, InputNumber}from 'antd'
 import newStr from './data/newStr'
 import oldStr from './data/oldStr'

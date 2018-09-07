@@ -1,6 +1,6 @@
 {
   "name": "react-code-diff",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "代码比较组件的react实现",
   "main": "index.js",
   "scripts": {
@@ -40,6 +40,7 @@
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
     "react-katex": "git+https://github.com/talyssonoc/react-katex.git",
+    "url-parse": "^1.4.3",
     "webpack": "^4.16.3"
   }
 }
