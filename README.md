@@ -11,7 +11,7 @@ npm install react-code-diff
 ## 使用
 ```$xslt
 import {Component} from 'react';
-import CodeDiff from 'react-vode-diff';
+import CodeDiff from 'react-code-diff';
 
 class Demo extends Component{
     constructor(props) {
