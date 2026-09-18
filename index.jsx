@@ -13,7 +13,7 @@ class CodeDiff extends Component{
     }
 
     render (){
-        return <div id="code-diff" dangerouslySetInnerHTML={{__html: this.html()}}></div>;
+        return <div id="code-diff" style={{position: 'relative'}} dangerouslySetInnerHTML={{__html: this.html()}}></div>;
     }
 
 
